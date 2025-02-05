@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> ACL Operators </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"; rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body style="background-color: grey;">
+
+    <div class="p-2">
+
+        <h1 style="color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> <b> Arithmetic, Comparison, and Logical Operators </b> </h1>
+
+    </div>
+
+    <div class="container-fluid">
+
+        <h2 style="background-color: black; border-radius: 12px; color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> Example Situation: If a = 20 and b = 5, compute for the following </h2>
+
+    </div>
+
+    <div class="container">
+
+        <h2 style="color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> ——————— Arithmetic Operator ——————— </h2>
+
+            <h3 style="border-radius: 12px; color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> • Exponent • </h3>
+
+                <h3 id="Exponent" style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">  </h3>
+
+                <div style="color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> 
+
+                    <br>
+
+                    <script> /// These are the variables for Exponents \\\
+
+                        var a, b, answer1; 
+
+                        a = 20;
+
+                        b = 5;
+
+                        answer1 = a**b; 
+
+                    </script>
+
+                    <button type="button" style="border-radius: 12px;" onclick="document.getElementById('Exponent').innerHTML = 'Answer:' + '<br>' + answer1;"> Click me to see the answer! </button> 
+
+                </div>
+
+                <br>
+
+            <h3 style="border-radius: 12px; color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> • Modulus • </h3>
+
+                <h3 id="Modulus" style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">  </h3>
+
+                <div style="color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> 
+
+                    <br>
+
+                    <script> /// These are the variables for Modulus \\\
+
+                        var a, b, answer2;
+
+                        a = 20;
+
+                        b = 5;
+
+                        answer2 = a%b;
+
+                    </script>
+
+                    <button type="button" style="border-radius: 12px;" onclick="document.getElementById('Modulus').innerHTML = 'Answer:' + '<br>' + answer2;"> Click me to see the answer! </button>
+
+                </div>
+
+                <br>
+
+        <h2 style="color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> ——————— Comparison Operator ——————— </h2>
+
+            <h3 style="border-radius: 12px; color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> • Is <i> a </i> greater than <i> b </i>? • </h3>
+
+                <h3 id="Comp1" style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">  </h3>
+
+                <div style="color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> 
+
+                    <br>
+
+                    <script> /// These are the variables for Comparison 1 \\\
+
+                        var a, b, answer3;
+
+                        a = 20;
+
+                        b = 5;
+
+                        answer3 = (a>b);
+
+                    </script>
+
+                    <button type="button" style="border-radius: 12px;" onclick="document.getElementById('Comp1').innerHTML = 'Answer:' + '<br>' + answer3;"> Click me to see the answer! </button>
+
+                </div>
+
+                <br>
+
+            <h3 style="border-radius: 12px; color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> • Is <i> a </i> equal to <i> b </i>? • </h3>
+
+                <h3 id="Comp2" style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">  </h3>
+
+                <div style="color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> 
+
+                    <br>
+ 
+                    <script> /// These are the variables for Comparison 2 \\\
+
+                        var a, b, answer4;
+
+                        a = 20;
+
+                        b = 5;
+
+                        answer4 = a==b;
+
+                    </script>
+
+                    <button type="button" style="border-radius: 12px;" onclick="document.getElementById('Comp2').innerHTML = 'Answer:' + '<br>' + answer4;"> Click me to see the answer! </button>
+
+                </div>
+
+                <br>
+
+        <h2 style="color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> ——————— Logical Operator ——————— </h2>
+
+            <h3 style="border-radius: 12px; color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> • (a <= b) && (a >= b) • </h3>
+
+                <h3 id="Logi1" style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">  </h3>
+
+                <div style="color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> 
+
+                    <br>
+
+                    <script> /// These are the variables for Logical 1 \\\
+
+                        var a, b, answer5;
+
+                        a = 20;
+
+                        b = 5;
+
+                        answer5 = (a <=b) && (a >=b);
+
+                    </script>
+
+                    <button type="button" style="border-radius: 12px;" onclick="document.getElementById('Logi1').innerHTML = 'Answer:' + '<br>' + answer5;"> Click me to see the answer! </button>
+
+                </div>
+
+                <br>
+
+            <h3 style="color:black; border-radius: 12px; color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> • (a != b) ‖ (a == b) • </h3>
+
+                <h3 id="Logi2" style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">  </h3>
+
+                <div style="color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> 
+
+                    <br>
+
+                    <script> /// These are the variables for Logical 2 \\\
+
+                        var a, b, answer6;
+
+                        a = 20;
+
+                        b = 5;
+
+                        answer6 = (a != b) || (a==b);
+
+                    </script>
+
+                    <button type="button" style="border-radius: 12px;" onclick="document.getElementById('Logi2').innerHTML = 'Answer:' + '<br>' + answer6;"> Click me to see the answer! </button>
+
+                    <br> 
+
+                    <br>
+
+                </div>
+
+    </div>
+
+    <div class="container-fluid"> 
+
+        <p style="background-color: black; border-radius: 12px; color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;"> References: w3schools. (n.d.). W3Schools Tryit Editor. w3schools. <i> <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_comparison_or"> https://www.w3schools.com/js/tryit.asp?filename=tryjs_comparison_or </a> </i> </p>
+
+    </div>
+
+    <br>
+
+</body>
+
+</html>
